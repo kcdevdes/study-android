@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
+            SL.logd("Back button clicked")
             if (System.currentTimeMillis() - initTime > 3000) {
                 Toast.makeText(this, "Press Back Button once more to terminate!", Toast.LENGTH_SHORT).show()
                 initTime = System.currentTimeMillis()
