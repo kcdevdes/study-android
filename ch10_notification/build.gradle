@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.kvicwhite.application.ch9_resource"
+        applicationId "com.kvicwhite.application.ch10_notification"
         minSdk 21
         targetSdk 31
         versionCode 1
