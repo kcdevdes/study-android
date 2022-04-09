@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         // sets content view as the root of binding variable
 
         binding.notificationButton.setOnClickListener {
-            // sets the clickListener of notificationButton
+            // sets a clickListener of notificationButton
 
             val manager = getSystemService(NOTIFICATION_SERVICE)
                 as NotificationManager

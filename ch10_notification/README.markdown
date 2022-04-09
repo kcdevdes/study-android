@@ -112,5 +112,6 @@ val replyTxt = RemoteInput.getResultsFromIntent(intent)?.getCharSequence("아까
 ```
 
 아래의 코드를 작성하여 글을 잘 받았다는 신호를 보내야한다.
-manager.notify(11, builder.build())
+
+```manager.notify(11, builder.build())```
 
